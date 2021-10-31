@@ -4,3 +4,4 @@ A simple spell-checker / autocorrect for single words using [Levenshtein distanc
 
 - The server is hosted and deployed by Heroku.
 - The Flask microframework allows for client-server interaction.
+- HTML/CSS/JS templates taken and modified from CodePen
