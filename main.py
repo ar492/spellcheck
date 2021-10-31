@@ -31,9 +31,9 @@ def compute(s):
 		l.append([word, ed(word, s)])
 	l.sort(key=lambda x: x[1])
 	ans=""
-	for i in ([item[0] for item in l]):
+	for i in ([item[0] for item in l[:50]):
 		ans+=i+", "
-	return ans
+	return ans+"..."
 
 #@app.route('/')
 #def index():
